@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A home for weeb based projects">
     <meta name="keywords" content="weeb, weebs, weebs.cf, oblivionsan, oblivion">
-    <meta name="theme-color" content="EDABD1">
+    <meta name="theme-color" content="#EDABD1">
     <meta property="og:image" content="https://weebs.cf/assets/img/girl.jpg"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://weebs.cf/random/"/>
