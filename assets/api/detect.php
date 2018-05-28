@@ -223,13 +223,13 @@ class Detect {
 		if (self::$detect->version('IE') !== false && self::$detect->version('IE') <= 9) {
 			$ieCountdownHTML = $prependHTML . '<a href="';
 			if (self::$detect->version('IE') <= 6) {
-				$ieCountdownHTML .= 'http://www.ie6countdown.com';
+				$ieCountdownHTML .= 'https://www.ie6countdown.com';
 			} elseif (self::$detect->version('IE') <= 7) {
-				$ieCountdownHTML .= 'http://www.theie7countdown.com/ie-users-info';
+				$ieCountdownHTML .= 'https://www.theie7countdown.com/ie-users-info';
 			} elseif (self::$detect->version('IE') <= 8) {
-				$ieCountdownHTML .= 'http://www.theie8countdown.com/ie-users-info';
+				$ieCountdownHTML .= 'https://www.theie8countdown.com/ie-users-info';
 			} elseif (self::$detect->version('IE') <= 9) {
-				$ieCountdownHTML .= 'http://www.theie9countdown.com/ie-users-info';
+				$ieCountdownHTML .= 'https://www.theie9countdown.com/ie-users-info';
 			}
 			$ieCountdownHTML .= '" target="_blank"><strong>YOU ARE USING AN OUTDATED BROWSER</strong><br />It is limiting your experience.<br />Please upgrade your browser,<br />or click this link to read more.</a>' . $appendHTML;
 		}
@@ -243,7 +243,7 @@ class Detect {
 
 	private static function getIpInfo() {
 		try {
-			self::$ipInfo = json_decode(file_get_contents('http://ipinfo.io' . self::$ipUrl . '/json'));
+			self::$ipInfo = json_decode(file_get_contents('https://ipinfo.io' . self::$ipUrl . '/json'));
 			self::$ipAddress = self::$ipInfo->ip;
 			self::$ipInfoHostname = self::$ipInfo->hostname;
 			self::$ipInfoOrg = self::$ipInfo->org;
@@ -260,7 +260,7 @@ class Detect {
 			return true;
 		} catch (Exception  $e) {
 			try {
-				self::$ipInfo = json_decode(file_get_contents('http://freegeoip.net/json' . self::$ipUrl));
+				self::$ipInfo = json_decode(file_get_contents('https://freegeoip.net/json' . self::$ipUrl));
 				self::$ipAddress = self::$ipInfo->ip;
 				self::$ipInfoCountry = self::$ipInfo->country_code;
 				/*self::$ipInfoLatitude = self::$ipInfo->latitude;
