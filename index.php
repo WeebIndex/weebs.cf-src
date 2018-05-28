@@ -106,9 +106,9 @@
         </table>
         <br>
       </div>
-      <button class="accordion"><i class="fas fa-chevron-right" aria-hidden="true"></i> 🦊 Kitsu-Widget <a target="_blank" href="kitsu/">[LINK]</a></button>
+      <button class="accordion"><i class="fas fa-chevron-right" aria-hidden="true"></i> 🦊 Kitsu-Widget <a target="_blank" href="https://weebs.cf/kitsu/">[LINK]</a></button>
       <div class="panel">
-        <iframe src="kitsu" frameborder="0" height="500px" width="100%"></iframe>
+        <iframe src="https://weebs.cf/kitsu/" frameborder="0" height="500px" width="100%"></iframe>
         <br>
       </div>
       <button class="accordion"><i class="fas fa-chevron-right" aria-hidden="true"></i> 💻 GitHub List</button>
