@@ -62,7 +62,18 @@
       <div class="container back">
       <h3>How to use <a href="../">Weebs.CF</a> - Random Image Feature</h3>
       <hr>
-      <p>These examples will give you an idea on how to use <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature.<br>These examples will be using the <a href="../random/hug">Hug</a> directory.<br>If you have any other usage examples for <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature then feel free to let me know via my <a href="https://discord.oblivionsan.tk">Discord</a>.</p>
+      <p>These examples will give you an idea on how to use <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature.<br>These examples will be using the <a href="../random/hug">Hug</a> directory.<br>If you have any other usage examples for <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature then feel free to let me know via my <a href="https://discord.oblivionsan.tk">Discord</a>.<br><br><b>THESE EXAMPLES ARE USING THE RAW OUTPUT.</b></p>
+      <hr>
+      <h3>Outputs</h3>
+      <div class="input-group">
+        <div style="padding-right: 20px" class="input-group-addon">RAW</div>
+        <pre class="form-control">https://weebs.cf/random/{dir_name}</pre>
+      </div>
+      <br>
+      <div class="input-group">
+        <div style="padding-right: 16px" class="input-group-addon">JSON</div>
+        <pre class="form-control">https://weebs.cf/random/{dir_name}?json</pre>
+      </div>
       <hr>
       <h3>JavaScript</h3>
           <hr>
