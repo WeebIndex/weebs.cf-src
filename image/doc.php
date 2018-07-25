@@ -8,9 +8,9 @@
   <meta content="#EDABD1" name="theme-color">
   <meta content="https://weebs.cf/assets/img/girl.jpg" property="og:image">
   <meta content="website" property="og:type">
-  <meta content="https://weebs.cf/random/" property="og:url">
+  <meta content="https://weebs.cf/image/" property="og:url">
   <meta content="Weebs.CF" property="og:site_name">
-  <meta content="Examples | Weebs.CF" property="og:title">
+  <meta content="Image | Weebs.CF" property="og:title">
   <meta content="A home for weeb based projects" property="og:description">
   <link href="../assets/img/girl.jpg" rel="icon" type="image/x-icon">
   <link href="../assets/img/girl.jpg" rel="shortcut icon" type="image/x-icon">
