@@ -5,7 +5,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="A home for weeb based projects" name="description">
   <meta content="weeb, weebs, weebs.cf, oblivionsan, oblivion" name="keywords">
-  <meta content="#EDABD1" name="theme-color">
+  <meta content="#C0B5D7" name="theme-color">
   <meta content="https://weebs.cf/assets/img/girl.jpg" property="og:image">
   <meta content="website" property="og:type">
   <meta content="https://weebs.cf/image/" property="og:url">
@@ -14,17 +14,14 @@
   <meta content="A home for weeb based projects" property="og:description">
   <link href="../assets/img/girl.jpg" rel="icon" type="image/x-icon">
   <link href="../assets/img/girl.jpg" rel="shortcut icon" type="image/x-icon">
-  <title>Image | Weeb</title><!-- CSS -->
+  <title>Image | Weeb</title>
+  <!-- CSS -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
-  <link href="../assets/css/style.css" rel="stylesheet"><!-- Assets for HighLight.js -->
-  <link href="../assets/css/github.css" rel="stylesheet">
-  <script src="../assets/js/highlight.js">
-  </script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script><!-- PHP -->
-  <?php require_once '../assets/api/Mobile_Detect.php'; ?><?php require_once '../assets/api/detect.php'; ?>
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <!-- PHP -->
+  <?php require_once '../assets/api/Mobile_Detect.php'; ?>
+  <?php require_once '../assets/api/detect.php'; ?>
 </head>
 <body class="bg-light">
   <div class="container">
@@ -40,10 +37,10 @@
               <a href="../"><i class="fa fa-home"></i> Home</a>
             </li>
             <li>
-              <a href="../random"><i class="fa fa-code"></i> Examples</a>
+              <a href="../random"><i class="fa fa-code"></i> Random</a>
             </li>
             <li class="active">
-              <a href="#"><i class="fa fa-code"></i>Image</a>
+              <a href="#"><i class="fa fa-code"></i> Image</a>
             </li>
             <li>
               <a href="../kitsu" target="_blank"><i class="fas fa-external-link-alt"></i> Kitsu</a>
@@ -89,11 +86,9 @@
         </div>
         <pre class="form-control">https://weebs.cf/image/?hex=ffffff</pre>
       </div><br>
-    </div><!-- /container -->
-    <script src="../assets/js/main.js"></script> 
+    </div><!-- /container --> 
     <script src="../assets/js/jquery.min.js"></script> 
     <script src="../assets/js/bootstrap.min.js"></script> 
-    <script src="../assets/js/ghWidget.js"></script>
     <div class="container text-center" style="padding-bottom:50px;">
       <hr>
       <small class="text-muted">Your IP: <?php echo Detect::ip();?></small><br>

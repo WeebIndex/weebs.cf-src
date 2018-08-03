@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="A home for weeb based projects" name="description">
   <meta content="weeb, weebs, weebs.cf, oblivionsan, oblivion" name="keywords">
-  <meta content="#EDABD1" name="theme-color">
+  <meta content="#C0B5D7" name="theme-color">
   <meta content="https://weebs.cf/assets/img/girl.jpg" property="og:image">
   <meta content="website" property="og:type">
   <meta content="https://weebs.cf/" property="og:url">
@@ -15,10 +15,14 @@
   <meta content="A home for weeb based projects" property="og:description">
   <link href="assets/img/girl.jpg" rel="icon" type="image/x-icon">
   <link href="assets/img/girl.jpg" rel="shortcut icon" type="image/x-icon">
-  <title>Home | Weeb</title><!-- CSS -->
+  <title>Home | Weeb</title>
+  <!-- CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet"><?php require_once 'assets/api/Mobile_Detect.php'; ?><?php require_once 'assets/api/detect.php'; ?>
+  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- PHP -->
+  <?php require_once 'assets/api/Mobile_Detect.php'; ?>
+  <?php require_once 'assets/api/detect.php'; ?>
 </head>
 <body class="bg-light">
   <div class="container">
@@ -34,10 +38,10 @@
               <a href="../"><i aria-hidden="true" class="fa fa-home"></i> Home</a>
             </li>
             <li>
-              <a href="random/"><i aria-hidden="true" class="fa fa-code"></i> Examples</a>
+              <a href="random/"><i aria-hidden="true" class="fa fa-code"></i> Random</a>
             </li>
             <li>
-              <a href="image/"><i class="fa fa-code"></i>Image</a>
+              <a href="image/"><i class="fa fa-code"></i> Image</a>
             </li>
             <li>
               <a href="kitsu/" target="_blank"><i class="fas fa-external-link-alt"></i> Kitsu</a>
@@ -60,92 +64,33 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <h2 style="padding-top: 50px">Home - <small>A home for <b>weeb</b> based projects</small></h2><br>
-    <button class="accordion"><i aria-hidden="true" class="fas fa-chevron-right"></i> 🖼️ Random Image List</button>
-    <div class="panel">
-      <br>
-      <h3>Anime</h3>
-      <table>
-        <tr>
-          <th>Directory Names</th>
-          <th>Directory Links</th>
-        </tr>
-        <tr>
-          <td>Hugs</td>
-          <td>
-            <a href="random/hug">Click Here</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Punches</td>
-          <td>
-            <a href="random/punch">Click Here</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Poke</td>
-          <td>
-            <a href="random/poke">Click Here</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Pat</td>
-          <td>
-            <a href="random/pat">Click Here</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Kiss</td>
-          <td>
-            <a href="random/kiss">Click Here</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Slap</td>
-          <td>
-            <a href="random/slap">Click Here</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Laugh</td>
-          <td>
-            <a href="random/laugh">Click Here</a>
-          </td>
-        </tr>
-      </table>
-      <h3>Other</h3>
-      <table>
-        <tr>
-          <th>Directory Names</th>
-          <th>Directory Links</th>
-        </tr>
-        <tr>
-          <td>Coin Flip</td>
-          <td>
-            <a href="random/coin">Click Here</a>
-          </td>
-        </tr>
-      </table><br>
-    </div><button class="accordion"><i aria-hidden="true" class="fas fa-chevron-right"></i> 🦊 Kitsu-Widget <a href="https://weebs.cf/kitsu/" target="_blank">[LINK]</a></button>
-    <div class="panel">
-      <iframe frameborder="0" height="500px" src="https://weebs.cf/kitsu/" width="100%"></iframe><br>
-    </div><button class="accordion"><i aria-hidden="true" class="fas fa-chevron-right"></i> 💻 GitHub List</button>
-    <div class="panel">
-      <br>
-      <div class="col-sm-4" style="padding-bottom: 10px">
-        <div class="github-widget" data-username="WeebIndex"></div>
-      </div>
-      <div class="col-sm-4" style="padding-bottom: 10px">
-        <div class="github-widget" data-username="OblivionSan"></div>
-      </div>
-      <div class="col-sm-4" style="padding-bottom: 10px">
-        <div class="github-widget" data-username="MizoreChan"></div>
-      </div><br>
+    <h2 style="padding-top: 50px">Home - <small>A home for <b>weeb</b> based projects</small></h2>
+    <br>
+    <div class="container back">
+      <h3>What is "<a href="https://weebs.cf">Weebs.CF</a>"?</h3>
+      <p><a href="https://weebs.cf">Weebs.CF</a> is an index page for weeb based projects.<br>
+      If you would like to help populate this website with more weeb based projects then feel free to contact me via <a href="https://discord.oblivionsan.tk">Discord</a>.<br>
+      More weeb based projects will be posted/uploaded in the foreseeable future to <a href="https://weebs.cf">Weebs.CF</a>.</p>
+      <hr>
+      <h3>Current Projects</h3>
+      <p><a href="https://weebs.cf">Weebs.CF</a> currently runs <b>4</b> projects.<br>
+      You can also visit the <a href="https://github.com/WeebIndex">GitHub</a> page to view other projects <a href="https://weebs.cf">Weebs.CF</a> supports.
+      <ul>
+        <li><a href="./random">Random</a> - Random Image Generator.</li>
+        <li><a href="./image">Image</a> - Build Custom Images Using Parameters.</li>
+        <li><a href="https://github.com/WeebIndex/weebs.cf-wrappers" target="_blank">Wrappers</a> - Wrappers for <a href="https://weebs.cf">Weebs.CF</a>.</li>
+        <li><a href="https://weebs.cf/kitsu" target="_blank">Kitsu</a> - A Kitsu.io widget that shows the given user statistics.</li>
+      </ul><hr>
+      </p>
+      <h3>Have Any Suggestions?</h3>
+      <p>Then you can contact me through <a href="https://discord.oblivionsan.tk">Discord</a> and share your ideas with me.<br>
+      If you also notice any issues or bugs on this site or its functions then contact me through <a href="https://discord.oblivionsan.tk">Discord</a>.     
+      </p>
+    </div>
+    <br>
     </div><!-- /container -->
-    <script src="assets/js/main.js"></script> 
     <script src="assets/js/jquery.min.js"></script> 
     <script src="assets/js/bootstrap.min.js"></script> 
-    <script src="assets/js/ghWidget.js"></script>
     <div class="container text-center" style="padding-bottom:50px;">
       <hr>
       <small class="text-muted">Your IP: <?php echo Detect::ip();?></small><br>

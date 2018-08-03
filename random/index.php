@@ -5,26 +5,28 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="A home for weeb based projects" name="description">
   <meta content="weeb, weebs, weebs.cf, oblivionsan, oblivion" name="keywords">
-  <meta content="#EDABD1" name="theme-color">
+  <meta content="#C0B5D7" name="theme-color">
   <meta content="https://weebs.cf/assets/img/girl.jpg" property="og:image">
   <meta content="website" property="og:type">
   <meta content="https://weebs.cf/random/" property="og:url">
   <meta content="Weebs.CF" property="og:site_name">
-  <meta content="Examples | Weebs.CF" property="og:title">
+  <meta content="Random | Weebs.CF" property="og:title">
   <meta content="A home for weeb based projects" property="og:description">
   <link href="../assets/img/girl.jpg" rel="icon" type="image/x-icon">
   <link href="../assets/img/girl.jpg" rel="shortcut icon" type="image/x-icon">
-  <title>Examples | Weeb</title><!-- CSS -->
+  <title>Random | Weeb</title><!-- CSS -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
-  <link href="../assets/css/style.css" rel="stylesheet"><!-- Assets for HighLight.js -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <!-- Assets for HighLight.js -->
   <link href="../assets/css/github.css" rel="stylesheet">
-  <script src="../assets/js/highlight.js">
-  </script>
+  <script src="../assets/js/highlight.js"></script>
   <script>
-  hljs.initHighlightingOnLoad();
-  </script><!-- PHP -->
-  <?php require_once '../assets/api/Mobile_Detect.php'; ?><?php require_once '../assets/api/detect.php'; ?>
+    hljs.initHighlightingOnLoad();
+  </script>
+  <!-- PHP -->
+  <?php require_once '../assets/api/Mobile_Detect.php'; ?>
+  <?php require_once '../assets/api/detect.php'; ?>
 </head>
 <body class="bg-light">
   <div class="container">
@@ -40,10 +42,10 @@
               <a href="../"><i aria-hidden="true" class="fa fa-home"></i> Home</a>
             </li>
             <li class="active">
-              <a href="#"><i aria-hidden="true" class="fa fa-code"></i> Examples</a>
+              <a href="#"><i aria-hidden="true" class="fa fa-code"></i> Random</a>
             </li>
             <li>
-              <a href="../image"><i class="fa fa-code"></i>Image</a>
+              <a href="../image"><i class="fa fa-code"></i> Image</a>
             </li>
             <li>
               <a href="../kitsu" target="_blank"><i class="fas fa-external-link-alt"></i> Kitsu</a>
@@ -66,7 +68,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <h2 style="padding-top: 50px">Examples - <small>A home for <b>weeb</b> based projects</small></h2><br>
+    <h2 style="padding-top: 50px">Random - <small>A home for <b>weeb</b> based projects</small></h2><br>
     <div class="container back">
       <h3>How to use <a href="../">Weebs.CF</a> - Random Image Feature</h3>
       <hr>
@@ -75,6 +77,73 @@
       If you have any other usage examples for <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature then feel free to let me know via my <a href="https://discord.oblivionsan.tk">Discord</a>.<br>
       <br>
       <b>THESE EXAMPLES ARE USING THE RAW OUTPUT.</b></p>
+      <hr>
+      <button class="accordion"><i aria-hidden="true" class="fas fa-chevron-right"></i> View Random Image List</button>
+      <div class="panel">
+        <br>
+        <h3>Anime</h3>
+        <table>
+          <tr>
+            <th>Directory Names</th>
+            <th>Directory Links</th>
+          </tr>
+          <tr>
+            <td>Hugs</td>
+            <td>
+              <a href="random/hug">Click Here</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Punches</td>
+            <td>
+              <a href="random/punch">Click Here</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Poke</td>
+            <td>
+              <a href="random/poke">Click Here</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Pat</td>
+            <td>
+              <a href="random/pat">Click Here</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Kiss</td>
+            <td>
+              <a href="random/kiss">Click Here</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Slap</td>
+            <td>
+              <a href="random/slap">Click Here</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Laugh</td>
+            <td>
+              <a href="random/laugh">Click Here</a>
+            </td>
+          </tr>
+        </table>
+        <h3>Other</h3>
+        <table>
+          <tr>
+            <th>Directory Names</th>
+            <th>Directory Links</th>
+          </tr>
+          <tr>
+            <td>Coin Flip</td>
+            <td>
+              <a href="random/coin">Click Here</a>
+            </td>
+          </tr>
+        </table>
+      </div>
       <hr>
       <h3>Outputs</h3>
       <div class="input-group">
@@ -132,14 +201,10 @@ func main() {
 }
 </code></pre>
     </div><!-- /container -->
-    <script src="../assets/js/main.js">
-    </script> 
-    <script src="../assets/js/jquery.min.js">
-    </script> 
-    <script src="../assets/js/bootstrap.min.js">
-    </script> 
-    <script src="../assets/js/ghWidget.js">
-    </script>
+    <script src="../assets/js/main.js"></script> 
+    <script src="../assets/js/jquery.min.js"></script> 
+    <script src="../assets/js/bootstrap.min.js"></script> 
+    <script src="../assets/js/ghWidget.js"></script>
     <div class="container text-center" style="padding-bottom:50px;">
       <hr>
       <small class="text-muted">Your IP: <?php echo Detect::ip();?></small><br>
