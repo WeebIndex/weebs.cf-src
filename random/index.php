@@ -14,16 +14,11 @@
   <meta content="A home for weeb based projects" property="og:description">
   <link href="../assets/img/girl.jpg" rel="icon" type="image/x-icon">
   <link href="../assets/img/girl.jpg" rel="shortcut icon" type="image/x-icon">
-  <title>Random | Weeb</title><!-- CSS -->
+  <title>Random | Weeb</title>
+  <!-- CSS -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
   <link href="../assets/css/style.css" rel="stylesheet">
-  <!-- Assets for HighLight.js -->
-  <link href="../assets/css/github.css" rel="stylesheet">
-  <script src="../assets/js/highlight.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
   <!-- PHP -->
   <?php require_once '../assets/api/Mobile_Detect.php'; ?>
   <?php require_once '../assets/api/detect.php'; ?>
@@ -204,7 +199,6 @@ func main() {
     <script src="../assets/js/main.js"></script> 
     <script src="../assets/js/jquery.min.js"></script> 
     <script src="../assets/js/bootstrap.min.js"></script> 
-    <script src="../assets/js/ghWidget.js"></script>
     <div class="container text-center" style="padding-bottom:50px;">
       <hr>
       <small class="text-muted">Your IP: <?php echo Detect::ip();?></small><br>
