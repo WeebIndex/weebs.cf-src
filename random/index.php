@@ -18,6 +18,7 @@
   <!-- CSS -->
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
+  <link href="../assets/css/github.css" rel="stylesheet">
   <link href="../assets/css/style.css" rel="stylesheet">
   <!-- PHP -->
   <?php require_once '../assets/api/Mobile_Detect.php'; ?>
@@ -69,112 +70,44 @@
       <hr>
       <p>These examples will give you an idea on how to use <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature.<br>
       These examples will be using the <a href="../random/hug">Hug</a> directory.<br>
-      If you have any other usage examples for <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature then feel free to let me know via my <a href="https://discord.oblivionsan.tk">Discord</a>.<br>
-      <br>
-      <b>THESE EXAMPLES ARE USING THE RAW OUTPUT.</b></p>
+      If you have any other usage examples for <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature then feel free to let me know via my <a href="https://discord.oblivionsan.tk">Discord</a>.<br></p>
       <hr>
       <button class="accordion"><i aria-hidden="true" class="fas fa-chevron-right"></i> View Random Image List</button>
-      <div class="panel">
-        <br>
-        <h3>Anime</h3>
-        <table>
-          <tr>
-            <th>Directory Names</th>
-            <th>Directory Links</th>
-          </tr>
-          <tr>
-            <td>Hugs</td>
-            <td>
-              <a href="random/hug">Click Here</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Punches</td>
-            <td>
-              <a href="random/punch">Click Here</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Poke</td>
-            <td>
-              <a href="random/poke">Click Here</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Pat</td>
-            <td>
-              <a href="random/pat">Click Here</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Kiss</td>
-            <td>
-              <a href="random/kiss">Click Here</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Slap</td>
-            <td>
-              <a href="random/slap">Click Here</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Laugh</td>
-            <td>
-              <a href="random/laugh">Click Here</a>
-            </td>
-          </tr>
-        </table>
-        <h3>Other</h3>
-        <table>
-          <tr>
-            <th>Directory Names</th>
-            <th>Directory Links</th>
-          </tr>
-          <tr>
-            <td>Coin Flip</td>
-            <td>
-              <a href="random/coin">Click Here</a>
-            </td>
-          </tr>
-        </table>
-      </div>
+      <?php include './panel.php'?>
       <hr>
       <h3>Outputs</h3>
-      <div class="input-group">
-        <div class="input-group-addon" style="padding-right: 20px">
-          RAW
-        </div>
-        <pre class="form-control">https://weebs.cf/random/{dir_name}</pre>
-      </div><br>
-      <div class="input-group">
-        <div class="input-group-addon" style="padding-right: 16px">
-          JSON
-        </div>
-        <pre class="form-control">https://weebs.cf/random/{dir_name}?json</pre>
-      </div>
+      <ul>
+        <li>Raw:  <code>https://weebs.cf/random/{dir_name}</code></li>
+        <li>JSON: <code>https://weebs.cf/random/{dir_name}?json</code></li>
+      </ul>
       <hr>
-      <h3>JavaScript</h3>
+      <h3>Wrappers</h3>
+      <p>To make your life a little easier.<br>Visit the <a href="https://github.com/WeebIndex/weebs.cf-wrappers">GitHub</a> page for examples on how to use the wrappers.<br>These wrappers are still a work in progress.</p>
+      <ul>
+        <li>JavaScript: <a href="https://github.com/WeebIndex/weebs.cf-wrappers/tree/master/js">weebs.cf-wrappers/js</a></li>
+        <li>PHP: <a href="https://github.com/WeebIndex/weebs.cf-wrappers/tree/master/php">weebs.cf-wrappers/php</a></li>
+        <li>Python: <a href="https://github.com/WeebIndex/weebs.cf-wrappers/tree/master/python">weebs.cf-wrappers/python</a></li>
+      </ul>
       <hr>
+      <h3>Raw code examples</h3>
+      <p>These examples will show you how to use <a href="../">Weebs.CF</a>'s <b>Random Image</b> feature if you don't want to use any wrappers.<br>More examples will be added soon.</p>
+      <h4>JavaScript</h4>
       <pre><code class="javascript">//Known issues with snekfetch@4.0.0 ~ install snekfetch@3.6.1
 const request = require("snekfetch");
 request.get("https://weebs.cf/random/hug").then(body =&gt; {
     console.log(body.text)
 });
 </code></pre>
-      <h3>PHP</h3>
-      <hr>
+      <h4>PHP</h4>
       <pre><code class="php">$text = file_get_contents("https://weebs.cf/random/hug");
 echo $text;
 </code></pre>
-      <h3>Python</h3>
-      <hr>
+      <h4>Python</h4>
       <pre><code class="python">import requests
 response = requests.get("https://weebs.cf/random/hug")
 print(response.text)
 </code></pre>
-      <h3>Go</h3>
-      <hr>
+      <h4>Go</h4>
       <pre><code class="go">package main
 import (
     "fmt"
@@ -198,7 +131,9 @@ func main() {
     </div><!-- /container -->
     <script src="../assets/js/main.js"></script> 
     <script src="../assets/js/jquery.min.js"></script> 
-    <script src="../assets/js/bootstrap.min.js"></script> 
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <div class="container text-center" style="padding-bottom:50px;">
       <hr>
       <small class="text-muted">Your IP: <?php echo Detect::ip();?></small><br>
